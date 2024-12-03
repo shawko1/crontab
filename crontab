@@ -1,0 +1,3 @@
+@reboot sudo dhclient -v
+@reboot sleep 120 && sudo dhclient -v
+0 * * * * sudo dhclient -v
